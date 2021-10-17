@@ -19,10 +19,10 @@ void draw(){
     strokeWeight(20);
     stroke(255, 127, 0);
     fill(0);
-    ellipse(400,400,130,130);
+    ellipse(400,400,180,180);
     noFill();
     strokeWeight(22);
-    arc(400, 400, 160, 70, 0, PI, OPEN);
+    arc(400, 400, 190, 70, 0, PI, OPEN);
     strokeWeight(0);
 }
 class Walker{ 
