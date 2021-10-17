@@ -16,13 +16,13 @@ void draw(){
   bob[i].walk();
   bob[i].show();
   }
-    strokeWeight(20);
+    strokeWeight(23);
     stroke(255, 127, 0);
     fill(0);
     ellipse(400,400,180,180);
     noFill();
-    strokeWeight(22);
-    arc(400, 400, 190, 70, 0, PI, OPEN);
+    strokeWeight(28);
+    arc(400, 400, 200, 70, 0, PI, OPEN);
     strokeWeight(0);
 }
 class Walker{ 
